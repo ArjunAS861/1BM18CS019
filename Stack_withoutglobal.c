@@ -12,7 +12,7 @@ do
 {printf(" Press 1 : PUSH\n Press 2 : POP \n Press 3 : DISPLAY \n Press 4  : Exit\n");
 scanf("%d",&x);
 switch(x)
-{case 1: printf("Enter the element u want to PUSH :\n");
+{case 1: printf("Enter the element you want to PUSH :\n");
 		scanf("%d",&v);
 		push(v,stack,&top);
 		break;
