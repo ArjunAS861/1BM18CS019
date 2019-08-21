@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
+#include<string.h>
 void push(char e,char s[100],int *t);
 char pop(char s[100],int *t);
 int prec(char e);
@@ -8,10 +9,11 @@ void display(char ot[100]);
 int main()
 {
  char in[100],ot[100],s[100];
-int j;
+int j=0;
 int top=-1;
-printf("Enter the expression:");
-gets(in);
+printf("Enter the INFIX expression:");
+scanf("%s",in);
+in[strlen(in)]='\0';
 for(int i=0;in[i]!='\0';i++)
 {
 	
@@ -70,4 +72,14 @@ void display(char ot[100])
 {
 	for(int i=0;ot[i]!='\0';i++)
 	printf("%c ",ot[i]);
+	
 }
+int prec(char e)
+		    {  if (e=='^')
+			    return 3;
+		     	if(e=='*'||e=='/')
+				return 2;
+		     	if(e=='+'|| e=='-')
+				return 1;
+		    }
+		    
