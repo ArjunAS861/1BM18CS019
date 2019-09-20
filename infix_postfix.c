@@ -90,4 +90,5 @@ int prec(char e)
 	return 2;
 	if(e=='+' || e=='-')
 	return 1;
+	else return 0;
 }
