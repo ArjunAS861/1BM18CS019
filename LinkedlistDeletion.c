@@ -136,4 +136,65 @@ void display(NODE head)
 		p=p->next;
 	}
 }
-	
+/*OUTPUT:
+Press 1: DELETION at FRONT
+Press 2 : DELETION at REAR
+Press 3: DELETION Of SPECIFIED ELEMENT
+Press 4: DISPLAY
+Enter your choice :4
+Contents of List are :
+30
+10
+4
+Do you want to continue(1/0)?
+1
+Press 1: DELETION at FRONT
+Press 2 : DELETION at REAR
+Press 3: DELETION Of SPECIFIED ELEMENT
+Press 4: DISPLAY
+Enter your choice :3
+Enter the Element to be DELETED:
+10
+Deleted Element = 10
+Do you want to continue(1/0)?
+1
+Press 1: DELETION at FRONT
+Press 2 : DELETION at REAR
+Press 3: DELETION Of SPECIFIED ELEMENT
+Press 4: DISPLAY
+Enter your choice :4
+Contents of List are :
+30
+4
+Do you want to continue(1/0)?
+1
+Press 1: DELETION at FRONT
+Press 2 : DELETION at REAR
+Press 3: DELETION Of SPECIFIED ELEMENT
+Press 4: DISPLAY
+Enter your choice :3
+Enter the Element to be DELETED:
+45
+The value is not Present in the List.
+Do you want to continue(1/0)?
+1
+Press 1: DELETION at FRONT
+Press 2 : DELETION at REAR
+Press 3: DELETION Of SPECIFIED ELEMENT
+Press 4: DISPLAY
+Enter your choice :3
+Enter the Element to be DELETED:
+30
+Deleted Element = 30 
+Do you want to continue(1/0)?
+1
+Press 1: DELETION at FRONT
+Press 2 : DELETION at REAR
+Press 3: DELETION Of SPECIFIED ELEMENT
+Press 4: DISPLAY
+Enter your choice :4
+Contents of List are :
+4
+Do you want to continue(1/0)?
+0
+*/
